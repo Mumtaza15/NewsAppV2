@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="horizontal"
+    android:background="#D6EBFB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D6EBFB">
+    <ImageView
+        android:id="@+id/ikon"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:src="@drawable/ic_list_berita"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+    <TextView
+        android:id="@+id/txt_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Sample Title"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txt_penulis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Sample Title"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txt_konten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium pellentesque porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est arcu, accumsan vel commodo pretium, porta eu est. Curabitur eu lacus dignissim, pharetra magna non, sodales nisi. Cras sollicitudin, enim vel sollicitudin sagittis, libero mi mattis turpis, in ullamcorper ipsum leo sit amet leo. Donec vitae consectetur tortor. Aenean eu sapien sed nisl posuere ullamcorper. Suspendisse scelerisque gravida gravida. Nam et mauris tincidunt, consequat leo eget, mattis magna. Fusce finibus faucibus auctor. Vivamus ut nunc ullamcorper lectus ullamcorper accumsan. Integer tincidunt ac orci eu vestibulum. Etiam sagittis condimentum diam vel mollis."
+        android:ellipsize="end"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        />
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView >
